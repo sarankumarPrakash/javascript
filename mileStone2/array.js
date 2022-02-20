@@ -31,7 +31,7 @@ console.log(array1 , "array1")
   array3[0]="we",
   array3[1]="are",
   array3[2]="developers"
-   console.log(array3,"array3");
+  console.log(array3,"array3");
 
 
 
