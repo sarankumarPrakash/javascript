@@ -12,10 +12,10 @@ In this file we know about javascript basics .
       1. Arthematic Operators
       2. Relational Operators
       3. Assignment Operators
-      4. Bitwise operators
+      4. Bitwise Operators
       5. Ternary Operators
-      6. Logical operator 
-      7. miscellaneous operator 
+      6. Logical Operators 
+      7. miscellaneous Operators 
  
 
 # mileStone 2

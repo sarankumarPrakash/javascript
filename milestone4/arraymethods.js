@@ -18,39 +18,31 @@ console.log(data.sort() , "aftersort")  // => it can sort through ASCII values
 })
  console.log(result)
 
-// filter 
+// filter => it help  to filter all the value from your applied condition
 
 let value =data.filter((value)=>{
     return value>5
 })
 console.log(value)
 
-// map  
+// map  => it help to create new array with calling every array 
 
 let marks =[45,67,23,32,78,99.56]
  let results=marks.map((value)=>{
      return value>40?"pass":"fail"
-
  })
- console.log(results)
+ console.log(results, "map")
+ let table=[1,2,3,4,5]
+ let tablemap=table.map((sqre)=>{
+     return sqre*sqre
+ })
+ console.log(tablemap, "tableSqurae")
 
 //  reduce  
-const array1 = [1, 2, 3, 4];  
-const reducer = array1.reduce((prev,cur)=>{
-    return(cur+prev)
+
+const array1 = [1, 2, 3, 4];  // c
+const reducer = array1.reduce((previous,current)=>{
+    return(current+previous)
 })
-console.log(reducer)
+console.log(reducer,"reduce")
 
-// reduce for object 
-
-let obj=[
-    { id:1,name:"chip",cost:10},
-    { id:2,name:"chip",cost:20},
-    { id:3,name:"chip",cost:30},
-    { id:14,name:"chip",cost:40},
-]
-
-let fresult = obj.reduce((prev,cur)=>{
-    return prev+cur.cost
-},0)
-   console.log(`your final cost : $ ${fresult}`)
